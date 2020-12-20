@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<div class="jumbotron text-center" style="background-color: #CC0645;">
+	  	<h1 class="display-4">COVID19 NOTIFIER</h1>
+	  	<p class="lead"><b>Tired of checking COVID19 Dashboard of your State/District Daily before going out ?</b></p>
+	  	<hr class="my-4">
+	  	<h3>Enter your details below so that you can be one touch away from the updates everyday!</h3>
+	  	<p class="lead">
+	    <a class="btn btn-info btn-lg" href="https://github.com/swarupsarangi113/covid19-notifier" role="button">Learn more</a>
+	  	</p>
+	</div>
+    </header>
+    <main>
+    	<div class="container">
+    		<div class="row">
+    			<div class="mx-auto">
+    				<form method="post">
+		    			<div>
+							<input type="text" class = "form-control form-control-lg" name="name" placeholder='Your Name...' required><br>
+							<input type="email" class = "form-control form-control-lg" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder='Your Email ID...' required><br>
+							<input type="text" class = "form-control form-control-lg" name="state" placeholder='Your State of Choice. (Example: Gujarat)' required><br>
+							<input type="text" class = "form-control form-control-lg" name="district" placeholder='Name of District. (Example : Gandhinagar)' required><br>
+							<input type="submit" class="btn btn-success mb-2" value="Notify Me!">
+						</div>
+					</form>
+    			</div>
+    		</div>
+    	</div>
+    </main>
+  </body>
+</html>
